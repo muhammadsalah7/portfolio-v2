@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Muhammad Salah — Junior Software Engineer</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body class="font-['Rubik']">
+    <!-- Hero -->
+    <section class="bg-primaryBg h-screen" id="home">
+      <svg
+        width="1186"
+        height="1186"
+        viewBox="0 0 1186 1186"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="pointer-events-none absolute left-1/2 top-1/2 z-0 w-5/6 sm:w-3/5 lg:w-2/5"
+        style="
+          opacity: 1;
+          z-index: 0;
+          transform: translateX(-50%) translateY(-50%) scale(1);
+        "
+      >
+        <circle
+          cx="593"
+          cy="593"
+          r="593"
+          fill="url(#paint0_linear_4949_267)"
+        ></circle>
+        <defs>
+          <linearGradient
+            id="paint0_linear_4949_267"
+            x1="593"
+            y1="0"
+            x2="593"
+            y2="1186"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#DDDDD5"></stop>
+            <stop offset="1" stop-color="#DDDDD5" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div
+        class="flex flex-col items-center h-full justify-center z-20 relative"
+      >
+        <h2
+          class="font-[700] text-[9.5rem] font-['OverusedGrotesk'] text-primaryTxt mr-48"
+        >
+          HI THERE, I'M
+        </h2>
+        <h2
+          class="font-[700] text-[9.5rem] font-['OverusedGrotesk'] text-primaryTxt -mt-16"
+        >
+          MUHAMMAD.
+        </h2>
+        <div class="flex flex-col items-stretch w-full">
+          <p class="font-[600] text-subtitleTxt text-[2rem]">
+            Crafting Awesome Websites & Squashing Bugs.
+          </p>
+
+          <!--NAV-->
+          <nav class="">
+            <ul
+              class="flex gap-4 font-['OverusedGrotesk'] text-primaryTxt text-[2rem]"
+            >
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#work" class="nav-link">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section-title section-title-about">ABOUT ME.</h2>
+      <p class="section-subtitle section-subtitle-about">
+        QA engineer & Frontend developer
+      </p>
+      <div class="about-me-body">
+        <p>
+          I'm Muhammad Salah, a graduate from the Faculty of Science at
+          Alexandria University, specializing in Statistics and Computer
+          Science, my journey in technology has been driven by a profound
+          passion for software quality and frontend development. With ISTQB-FL
+          and ISTQB-AT certifications, I bring a meticulous approach to software
+          testing, ensuring robustness and reliability throughout the
+          development lifecycle. My experience spans both development and
+          testing roles, providing me with a comprehensive understanding of
+          software processes.
+        </p>
+        <p>
+          Beyond my professional pursuits, I'm deeply passionate about
+          technology, gaming, fitness, and music. These interests not only
+          enrich my personal life but also inspire creativity and drive
+          excellence in my work.
+        </p>
+      </div>
+      <img
+        src="images/MS.jpg"
+        alt="Muhammad Salah smiling"
+        class="about-me-img"
+      />
+    </section>
+
+    <!-- Services -->
+    <section class="my-services" id="services">
+      <h2 class="section-title section-title-services">WHAT I DO.</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Frontend Web Development</h3>
+          <p>
+            Step into my frontend development services, where excellence merges
+            seamlessly with innovation. Proficient in HTML, CSS, JavaScript,
+            Tailwind CSS, and React JS, I specialize in crafting mesmerizing
+            digital experiences that seamlessly integrate striking design and
+            impeccable performance. Together, let's transform your brand with
+            state-of-the-art web solutions that enchant and engage your
+            audience.
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Testing and QA</h3>
+          <p>
+            Backed by ISTQB-FL and ISTQB-AT certifications, ensuring top-tier
+            quality and precision. With precise attention to detail, I conduct
+            thorough manual and automated tests to guarantee the flawless
+            performance of your digital products. From functional testing to
+            usability testing, I provide actionable feedback to optimize your
+            software for peak performance.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <a href="#work" class="btn work-btn">My Work</a>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section-title section-title-work">MY WORK.</h2>
+      <p class="section-subtitle section-subtitle-work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a
+          href="https://word-masters-tau.vercel.app/"
+          rel="noopener"
+          target="_blank"
+          class="portfolio-item"
+        >
+          Word Masters Game
+          <img src="images/proj1.jpg" alt="" class="portfolio-img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a
+          href="https://random-password-generator-eight-delta.vercel.app/"
+          rel="noopener"
+          target="_blank"
+          class="portfolio-item"
+        >
+          Random Password Generator
+          <img src="images/proj2.jpg" alt="" class="portfolio-img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a
+          href="https://add-to-cart-app-dusky.vercel.app/"
+          rel="noopener"
+          target="_blank"
+          class="portfolio-item"
+        >
+          Add to cart app
+          <img src="images/proj4.jpg" alt="" class="portfolio-img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a
+          href="https://unit-converter-five-gamma.vercel.app/"
+          rel="noopener"
+          target="_blank"
+          class="portfolio-item"
+        >
+          Unit Converter
+          <img src="images/proj3.jpg" alt="" class="portfolio-img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="my-experience" id="experience">
+      <h2 class="section-title">MY EXPERIENCE.</h2>
+      <p class="section-subtitle">
+        A Detailed Account of Professional Experience
+      </p>
+      <div class="experience01">
+        <div class="img-title-sub">
+          <img src="images/metas.png" alt="metas logo" class="exp-img" />
+          <div class="title-sub">
+            <p class="exp-title">Software Developer</p>
+            <p class="exp-subtitle">
+              Metas Architecture Research Studio · Internship
+            </p>
+          </div>
+        </div>
+
+        <p class="exp-year">2022</p>
+      </div>
+      <div class="experience02">
+        <div class="img-title-sub">
+          <img src="images/eventum.jpeg" alt="eventum logo" class="exp-img" />
+          <div class="title-sub">
+            <p class="exp-title">Software Testing Engineer</p>
+            <p class="exp-subtitle">Eventum Solutions · Internship</p>
+          </div>
+        </div>
+
+        <p class="exp-year">2023</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <p>GET IN TOUCH!</p>
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="https://www.linkedin.com/in/muhammad-salah-b64315204/"
+            rel="noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="mailto:muhammad.salahh@outlook.com"
+            rel="noopener"
+            target="_blank"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </li>
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="https://github.com/muhammadsalah7"
+            rel="noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="footer-subtitle">Made with ❤️ in Alexandria, Egypt</p>
+    </footer>
+  </body>
+</html>

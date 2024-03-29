@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primaryBg: #e5e5e1;
+  --secondaryBg: #080807;
+  --primaryTxt: #393632;
+  --secondaryTxt: #cecec4;
+  --subtitleTxt: #6b645c;
+}
+@font-face {
+  font-family: "OverusedGrotesk";
+  src: url("fonts/OverusedGrotesk-ExtraBold.ttf") format("truetype");
+  src: url("fonts/OverusedGrotesk-Bold.ttf") format("truetype");
+}
