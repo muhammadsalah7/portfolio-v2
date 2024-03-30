@@ -51,47 +51,84 @@
         </defs>
       </svg>
       <div
-        class="flex flex-col items-center h-full justify-center z-20 relative"
+        class="flex flex-col items-center h-full justify-around z-20 relative"
+        style="padding-top: 7%"
+        id="home-container"
       >
         <h2
-          class="font-[700] text-[9.5rem] font-['OverusedGrotesk'] text-primaryTxt mr-48"
+          class="font-[700] text-[9rem] font-['OverusedGrotesk'] text-primaryTxt mr-48"
         >
           HI THERE, I'M
         </h2>
         <h2
-          class="font-[700] text-[9.5rem] font-['OverusedGrotesk'] text-primaryTxt -mt-16"
+          class="font-[700] text-[9rem] font-['OverusedGrotesk'] text-primaryTxt -mt-16"
         >
           MUHAMMAD.
         </h2>
-        <div class="flex flex-col items-stretch w-full">
-          <p class="font-[600] text-subtitleTxt text-[2rem]">
+        <div class="flex flex-col items-center" style="margin-top: -20px">
+          <p class="font-[600] text-subtitleTxt text-[1.5rem]">
             Crafting Awesome Websites & Squashing Bugs.
           </p>
-
-          <!--NAV-->
-          <nav class="">
-            <ul
-              class="flex gap-4 font-['OverusedGrotesk'] text-primaryTxt text-[2rem]"
-            >
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a href="#services" class="nav-link">Services</a>
-              </li>
-              <li class="nav-item">
-                <a href="#work" class="nav-link">Works</a>
-              </li>
-              <li class="nav-item">
-                <a href="#experience" class="nav-link">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </nav>
         </div>
+
+        <!--NAV-->
+
+        <nav class="absolute" style="bottom: 13%">
+          <ul
+            id="home-ul"
+            class="flex font-['OverusedGrotesk'] text-primaryTxt text-[2rem]"
+          >
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
+    </section>
+    <!-- Services -->
+    <section class="my-services" id="services">
+      <h2 class="section-title section-title-services">WHAT I DO.</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Frontend Web Development</h3>
+          <p>
+            Step into my frontend development services, where excellence merges
+            seamlessly with innovation. Proficient in HTML, CSS, JavaScript,
+            Tailwind CSS, and React JS, I specialize in crafting mesmerizing
+            digital experiences that seamlessly integrate striking design and
+            impeccable performance. Together, let's transform your brand with
+            state-of-the-art web solutions that enchant and engage your
+            audience.
+          </p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3>Testing and QA</h3>
+          <p>
+            Backed by ISTQB-FL and ISTQB-AT certifications, ensuring top-tier
+            quality and precision. With precise attention to detail, I conduct
+            thorough manual and automated tests to guarantee the flawless
+            performance of your digital products. From functional testing to
+            usability testing, I provide actionable feedback to optimize your
+            software for peak performance.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <a href="#work" class="btn work-btn">My Work</a>
     </section>
 
     <!-- About me -->
@@ -124,39 +161,6 @@
         alt="Muhammad Salah smiling"
         class="about-me-img"
       />
-    </section>
-
-    <!-- Services -->
-    <section class="my-services" id="services">
-      <h2 class="section-title section-title-services">WHAT I DO.</h2>
-      <div class="services">
-        <div class="service">
-          <h3>Frontend Web Development</h3>
-          <p>
-            Step into my frontend development services, where excellence merges
-            seamlessly with innovation. Proficient in HTML, CSS, JavaScript,
-            Tailwind CSS, and React JS, I specialize in crafting mesmerizing
-            digital experiences that seamlessly integrate striking design and
-            impeccable performance. Together, let's transform your brand with
-            state-of-the-art web solutions that enchant and engage your
-            audience.
-          </p>
-        </div>
-        <!-- / service -->
-        <div class="service">
-          <h3>Testing and QA</h3>
-          <p>
-            Backed by ISTQB-FL and ISTQB-AT certifications, ensuring top-tier
-            quality and precision. With precise attention to detail, I conduct
-            thorough manual and automated tests to guarantee the flawless
-            performance of your digital products. From functional testing to
-            usability testing, I provide actionable feedback to optimize your
-            software for peak performance.
-          </p>
-        </div>
-        <!-- / service -->
-      </div>
-      <a href="#work" class="btn work-btn">My Work</a>
     </section>
 
     <!-- My Work -->
